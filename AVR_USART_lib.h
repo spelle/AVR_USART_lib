@@ -7,7 +7,6 @@
 
 
 
-
 #ifndef AVR_USART_LIB_H
 #define AVR_USART_LIB_H
 
