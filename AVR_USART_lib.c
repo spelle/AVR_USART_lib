@@ -51,6 +51,12 @@ void USART_Transmit( uint8_t ui8Data )
 
 int USART_putchar_printf( char var, FILE *stream )
 {
+	if ( var == '\n' )
+	{
+		USART_Transmit('\r') ;
+	}
+
+
 	USART_Transmit( (uint8_t) var ) ;
 
 	return 0 ;
