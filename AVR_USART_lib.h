@@ -19,7 +19,10 @@
 
 void USART_Init( uint16_t ui16UBRR ) ;
 
-void USART_Transmit( unsigned char data ) ;
 
 
-#endif AVR_USART_LIB_H
+void USART_Transmit( uint8_t data ) ;
+
+
+
+#endif /* AVR_USART_LIB_H */
