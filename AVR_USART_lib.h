@@ -38,6 +38,13 @@ void USART_Transmit( uint8_t ui8Data ) ;
 
 
 
+/*! \brief USART printf handler
+ *  \details Just write data to the Serial link
+ *  \param [in] char var : char being printed
+ *  \param [in] FILE *stream : pointer to the stream being printed ?
+ *  \param None.
+ *  \return Always 0.
+ */
 int USART_putchar_printf( char var, FILE *stream ) ;
 
 
