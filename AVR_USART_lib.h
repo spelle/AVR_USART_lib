@@ -24,7 +24,7 @@
  *  \param [in] uint16_t ui16BaudRate : Desired Baud Rate (16 bit) - up to 57600
  *  \return Nothing.
  */
-void USART_Init( uint16_t ui16BaudRate ) ;
+void USART_Init( uint16_t ) ;
 
 
 
@@ -34,7 +34,7 @@ void USART_Init( uint16_t ui16BaudRate ) ;
  *  \param None.
  *  \return Nothing.
  */
-void USART_Transmit( uint8_t ui8Data ) ;
+void USART_Transmit( uint8_t ) ;
 
 
 
